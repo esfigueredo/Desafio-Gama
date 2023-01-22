@@ -1,0 +1,307 @@
+main {
+    width:  100vw;
+}
+
+.div-white {
+    background-color: var(--background-white-color);
+    width: 100%;
+    
+}
+
+.div-gray {
+    background-color: var(--background-gray-color);
+    width: 100%;
+}
+
+.div-white section {
+    max-width: 75rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 4rem;
+}
+
+.div-gray section {
+    max-width: 75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.div-gray section a {
+    max-width:  50% ;
+    text-align: center;
+}
+
+.card-image {
+    width: 32.375rem;
+    height: 16.188rem;
+    background-color: var(--background-div);
+}
+
+h1 {
+    color: var(--text-green-color);
+    font-size: 2.938rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+article p{    
+    margin: 0 auto;    
+    width: 60%;
+    padding: 2rem 0;
+}
+
+h2 {
+    color: var(--text-pink-color);
+    padding: 2rem 0 ;
+    text-align: left;
+}
+
+p {
+    width: 32.375rem;
+    color: var(--text-gray-color);
+    padding-bottom: 4rem;
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 480px) {
+    #ilustra-blog {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .div-white section {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .div-white section div{   
+        display: flex;
+        flex-direction: column;     
+        align-items: left;
+        justify-content: flex-start;
+    }
+
+    .div-white section div h1{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+    .div-white section div p{
+        font-size: 1rem;
+        text-align: justify;
+        width: 80%;
+    }
+    .div-gray {
+        width: 100vw;
+    }
+
+    .div-gray section{
+        width:  100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .div-gray section a {
+        width: 100vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .div-gray section a div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-gray section a div h2 {
+        width: 80%;
+        text-align: center;
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .div-gray section a div p{
+        width: 80%;
+        text-align: justify;
+        padding: 0;
+    }
+
+    .card-image {
+        width: 80%;
+        height: 10rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    #ilustra-blog {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .div-white section {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .div-white section div{   
+        display: flex;
+        flex-direction: column;     
+        align-items: left;
+        justify-content: flex-start;
+    }
+
+
+    .div-white section div h1{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+    .div-white section div p{
+        font-size: 1rem;
+        text-align: justify;
+        width: 80%;
+    }
+    .div-gray {
+        width: 100vw;
+    }
+
+    .div-gray section{
+        width:  100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .div-gray section a {
+        width: 100vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .div-gray section a div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-gray section a div h2 {
+        width: 80%;
+        text-align: center;
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .div-gray section a div p{
+        width: 80%;
+        text-align: justify;
+        padding: 0;
+    }
+
+    .card-image {
+        width: 80%;
+        height: 10rem;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    #ilustra-blog {
+        display: none;
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    .div-white section {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .div-white section div{   
+        display: flex;
+        flex-direction: column;     
+        align-items: left;
+        justify-content: flex-start;
+    }
+
+
+    .div-white section div h1{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+    .div-white section div p{
+        font-size: 1rem;
+        text-align: justify;
+        width: 80%;
+    }
+    .div-gray {
+        width: 100vw;
+    }
+
+    .div-gray section{
+        width:  100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+
+    .div-gray section a {
+        width: 100vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .div-gray section a div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div-gray section a div h2 {
+        width: 80%;
+        text-align: center;
+        margin: 1rem;
+        padding: 0;
+    }
+
+    .div-gray section a div p{
+        width: 80%;
+        text-align: justify;
+        padding: 0;
+    }
+
+    .card-image {
+        width: 80%;
+        height: 10rem;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1201px) {
+
+}

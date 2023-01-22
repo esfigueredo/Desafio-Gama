@@ -1,0 +1,428 @@
+
+main div section {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-white {
+    background-color: var(--background-white-color);
+}
+
+.section-gray {
+    background-color: var(--background-gray-color);
+}
+
+.section-gray section {
+    max-width: 75rem;
+    padding: 1.25rem;
+}
+
+.section-white section {
+    max-width: 75rem;
+    padding: 1.25rem;
+}
+
+.button {
+    width: 16.75rem;
+    height: 3.188rem;
+    padding: 0.313rem 0.625rem;
+    border: 0.125rem solid var(--text-pink-color);
+    background-color: var(--background-white-color);
+    border-radius: 3.875rem;
+}
+
+.button a {
+    color: var(--text-pink-color);
+    font-size: 1.688rem;
+}
+
+.section-white section div h1 {
+    color: var(--text-pink-color);
+    font-size: 3.75rem;
+}
+
+.educacao-financeira section {
+    display: flex;
+}
+
+.educacao-financeira section div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.educacao-financeira section div {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    padding: 3.125rem;
+}
+
+.educacao-financeira section img {
+    width: 70%;
+    height: 70%;
+    text-align: left;
+    padding: 3.125rem;
+}
+
+.educacao-financeira section div h1, p, a{
+    width: 100%;
+    text-align: left;
+}
+
+.educacao-financeira section div p{
+   margin: 1.25rem 0 ;
+   font-size: 1.688rem;
+}
+
+.educacao-financeira section div img{
+    width: 80%;
+    height: 80%;
+}
+
+.section-white section div h2 {
+    color: var(--text-green-color);
+    font-size: 2.313rem;
+}
+
+.cursos section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cursos section div {
+    max-width: 21.5rem;
+    height: 31.5rem;
+    text-align: center;
+    padding: 0.625rem;
+}
+
+.cursos section div img {
+    max-width: 18rem;
+    max-height: 16.875rem;
+    align-items: center;
+}
+
+.cursos section div h2 {
+    font-size: 1.25rem;
+    color: var(--text-pink-color);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.cursos section div p {    
+    text-align: center;
+    margin-top: 1rem;
+    width: 17.5rem;
+    padding: 0 auto;
+}
+
+.button2 {
+    width: 14.563rem;
+    height: 3.188rem;
+    padding: 0.313rem 0.625rem;
+    margin: 1.5rem auto;
+    border: none;
+    background-color: var(--text-pink-color);
+    border-radius: 3.875rem;
+}
+
+.button2 a {
+    color: var(--text-white-color);
+    font-size: 1.25rem;
+}
+
+
+.sobre-nos {
+    height: 31.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.sobre-nos section div {
+    display: flex; 
+}
+.sobre-nos section h2 {
+    margin-bottom: 4rem;
+    color: var(--text-green-color);
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#grid div {
+    width: 100%;
+}
+
+.sobre-nos-textos {
+    display: flex;
+    flex-wrap: wrap;
+    height: 6.25rem;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.sobre-nos-textos p {
+    max-width: 25rem;
+    margin-left: 0.625rem;
+}
+
+.sobre-nos-textos span {
+    margin-top: 0.625rem;
+    margin-left: 0.625rem;
+}
+
+.conteudo section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.conteudo ul {
+    display: flex;
+    max-width: 75rem;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.conteudo ul li p{
+    color: var(--text-black-color);
+}
+
+.card-prev {
+    width: 19.938rem;
+    height: 12.063rem;
+    background-color: var(--background-div);
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo section h2 {
+    color: var(--text-green-color);
+    margin: 3rem 0;
+    text-align: left;
+    width: 100%;
+    padding-left: 3rem;
+}
+
+li {    
+    list-style: none;
+}
+
+
+.conteudo-text {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-text h3 {
+    color: var(--text-green-color);
+    width: 100%;
+    margin: 0.625rem 0;
+    text-align: left;
+}
+
+.conteudo-text p {
+    width: 100%;
+    max-width: 19.938rem;
+    margin: 0 auto;    
+}
+
+.conteudo button {
+    margin: 3.75rem auto;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .educacao-financeira section {
+        display: flex;
+        flex-direction: column;       
+    }
+
+    .educacao-financeira section div {
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .educacao-financeira section img {
+        display: none;
+    }
+
+    .educacao-financeira section div h1 {
+        font-size: 2rem;
+    }
+
+    .educacao-financeira section div button {
+        width: 70%;
+        height: 2rem;
+        margin: 0 auto;
+    }
+
+    .educacao-financeira section div button a {
+        font-size: 1rem;
+    }
+
+    .educacao-financeira section div p {
+        font-size: 1rem;
+    }
+
+    .cursos section{
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+    }
+
+    .sobre-nos {
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .sobre-nos section h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .sobre-nos section div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .educacao-financeira section div h1,p, span,  a {
+        text-align: center;
+    }
+
+    .card img {
+        width:  6rem;
+        height: 6rem;
+        margin: 1rem;
+    }
+    .conteudo section h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 1rem auto;
+        padding: 0;
+    }
+
+   .conteudo-text h3{
+        text-align: center;
+   }
+
+    #grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nao-aparece1 {
+        display: none;
+    }
+    
+    .nao-aparece2 {
+        display: none;
+    }
+
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .educacao-financeira section {
+        display: flex;
+        flex-direction: column;        
+    }
+    .educacao-financeira section img {
+        display: none;
+    }
+
+    .cursos section{
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+    }
+
+    .sobre-nos {
+        display: flex;
+        flex-direction: column;
+    }
+    .sobre-nos {
+        height: auto;
+    }
+
+    #grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo section h2{
+        text-align: center;
+        padding: 0;
+    }
+
+    .nao-aparece1 {
+        display: none;
+    }
+    
+    .nao-aparece2 {
+        display: none;
+    }
+  }
+  
+  @media only screen and  (min-width: 769px) and (max-width: 1024px)  {
+    .educacao-financeira section {
+        display: flex;               
+    }
+    .educacao-financeira section img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .cursos section{
+        display: flex;
+        flex-direction: column;
+        padding: auto;
+    }
+
+    .sobre-nos {
+        display: flex;
+        flex-direction: column;
+    }
+    .sobre-nos {
+        height: auto;
+    }
+    
+    .conteudo section h2{
+        text-align: center;
+        padding: 0;
+    }
+
+    #grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nao-aparece1 {
+        display: none;
+    }
+    
+  }
+  
+  @media only screen and  (min-width: 1025px) and (max-width: 1200px)  {
+
+  }
+  
+  @media only screen and (min-width: 1201px) {
+ 
+  }
+  
